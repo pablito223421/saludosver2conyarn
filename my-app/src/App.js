@@ -5,7 +5,6 @@ import React from "react";
 
 function App() {
   const user={
-   nombre:"Alberto Rodriguez",
    edad:"33",
    color:"negro"
   };
