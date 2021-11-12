@@ -5,13 +5,15 @@ import React from "react";
 
 function App() {
   const user={
-   edad:"33",
-   color:"negro"
-  };
-
-  const saludarFn= (name)=>{
-    console.log("Hola"+ name);
-  };
+    nombre:"Pablo",
+    edad:"31",
+    color:"negro"
+   };
+ 
+   const saludarFn= (nombre,edad)=>{
+     console.log("Hola"+ {nombre}+",tiene"+{edad}+"años .");
+     console.log(`Hola ${nombre} , tiene ${edad} años .`);
+   };
 
   return (
     <div className="App">
